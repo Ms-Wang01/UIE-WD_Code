@@ -14,3 +14,7 @@ conda config --append envs_dirs your_path
 rm -rf yourpath
 删除路径
 source activate 环境名称
+## wget download large file
+$ ps -eaf | grep [w]get 
+saml      1713  1709  0 Dec10 pts/0    00:00:00 wget ...
+$ kill 1713
