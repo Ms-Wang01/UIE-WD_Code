@@ -5,14 +5,20 @@ In python3, / produces a float value, but cov2d requires an int, so simply chang
 
 ## Use GPU to creat a virtual env
 conda create --prefix ./envs/UIE-WE_env python=3.7
+
 conda config --show envs_dirs
+
 查看目前虚拟环境路径
+
 conda env list
 现有环境
+
 conda config --append envs_dirs your_path
 添加环境路径
+
 rm -rf yourpath
 删除路径
+
 source activate 环境名称
 ## wget download large file
 $ ps -eaf | grep [w]get 
