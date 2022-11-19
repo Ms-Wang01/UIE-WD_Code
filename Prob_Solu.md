@@ -24,3 +24,6 @@ source activate 环境名称
 $ ps -eaf | grep [w]get 
 saml      1713  1709  0 Dec10 pts/0    00:00:00 wget ...
 $ kill 1713
+
+## ModuleNotFoundError: No module named 'pytorch_ssim'
+just pip install it
