@@ -27,3 +27,6 @@ $ kill 1713
 
 ## ModuleNotFoundError: No module named 'pytorch_ssim'
 just pip install it
+
+## 将Variable迁移到显存中去
+https://blog.csdn.net/qq_34018578/article/details/109314889
