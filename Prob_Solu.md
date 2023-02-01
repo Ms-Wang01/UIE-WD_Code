@@ -35,3 +35,6 @@ https://blog.csdn.net/qq_34018578/article/details/109314889
 
 ## 使用wget命令下载Google drive上的文件
 https://codeantenna.com/a/ZFm2V6jPHS
+
+## 在搭建环境时需要pip install -r requirements.txt，其中xxx无法自动安装
+conda install -c intel xxx
