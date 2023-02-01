@@ -30,4 +30,8 @@ just pip install it
 
 ## 将Variable迁移到显存中去
 https://blog.csdn.net/qq_34018578/article/details/109314889
+
 .cuda()操作默认使用GPU 0也就是第一张显卡来进行操作。当我们想要存储在其他显卡中时可以使用.cuda(<显卡号数>)来将数据存储在指定的显卡中。
+
+## 使用wget命令下载Google drive上的文件
+https://codeantenna.com/a/ZFm2V6jPHS
